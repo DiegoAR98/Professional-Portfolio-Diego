@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2B2B2B;
+    color: #E6E6E6;
+    margin: 0;
+    padding: 0;
+    
+}
+figure img {
+    width: 400px;  /* Set the width of the image */
+    height: 400px; /* Set the height of the image */
+    object-fit: contain; /* Ensures the image covers the dimensions without distortion */
+    transition: transform 0.3s;
+}
+figure img:hover {
+    transform: scale(1.1); /* Scale the image up by 10% when hovered */
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%; /* Increased padding */
+    background-color: rgba(19, 41, 61, 0.95); /* Slight transparency */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    color: #fff;
+    font-family: 'Open Sans', sans-serif; /* Example font */
+  }
+  .about-me{
+    background-color: #13293d;
+    color: #fff;
+    justify-content: center;
+    padding: 2%;
+    font-size: 18px;
+    border-radius: 1px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    padding-right: 30px;
+
+  }
+  
+  nav a {
+    color: darkgrey;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+h1 {
+    color:darkgray;
+    font-size: 50px;
+    padding-left: 30px;
+    text-align: center;
+}
+h1:hover {
+    color:darkgray;
+    transform: scale(1.1);
+    padding-left: 30px;
+    text-align: center;
+}
+section h2 {
+    color: #fff;
+    position: relative; 
+  
+    text-align: center; 
+
+}
+.snippet {
+    background-color: #4D4D4D;
+    margin: 17px;
+    padding: 17px;
+    border-radius: 4px;
+    border: 1px dashed white;
+}
+pre {
+    display: block;
+    background-image: linear-gradient(to bottom, #800080, #ee82ee); /* From dark violet to light violet */
+    padding: 5px;
+    border-radius: 4px;
+    white-space: pre;
+    font-size: large;
+    user-select: all;         /* Standard syntax */
+    transition-duration: 2s;
+   
+}
+pre:focus {
+    background: yellow;
+    border-radius: 25px;
+    color: black;
+    user-select: all;         /* Standard syntax */
+  
+}
+footer {
+    background-color: #2B2B2B;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 1.2em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+}
+/* Styles for tablets and larger devices */
+@media screen and (min-width: 768px) {
+  
+}
+/* Styles for desktops and larger devices */
+@media screen and (min-width: 992px) {
+   
+    
+}
+@media screen and (max-width: 768px) {
+    .
+}
+
