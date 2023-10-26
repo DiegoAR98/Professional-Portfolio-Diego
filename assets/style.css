@@ -2,32 +2,34 @@
     color: #B0B0B0;
     font-family: Arial, sans-serif;
 }
-body {
 
-    background-color: #2B2B2B;
+body {
     margin: 0;
     padding: 0;
-    
+    background-color: rgba(19, 41, 61, 0.95); /* Slight transparency */
 }
+
 figure img {
     width: 400px;  /* Set the width of the image */
     height: 400px; /* Set the height of the image */
     object-fit: contain; /* Ensures the image covers the dimensions without distortion */
     border-radius: 50%;
 }
+
 figure img:hover {
     transform: scale(1.1); /* Scale the image up by 10% when hovered */
 }
+
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 3%; /* Increased padding */
+    padding: 3%;
     background-color: rgba(19, 41, 61, 0.95); /* Slight transparency */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    font-family: Arial, sans-serif;
+
   }
+
   nav ul {
     list-style: none; /* Removes the bullet points */
     display: flex;
@@ -40,7 +42,6 @@ nav a {
     font-weight: bold;
     text-decoration: none;
     padding: 0.5em 1em;
-    border-radius: 3px;
 }
 
   .about-me{
@@ -50,12 +51,12 @@ nav a {
     font-size: 18px;
     border-radius: 1px;
   }
+
   #Applications {
     display: flex;
     flex-direction:column;
     align-items: center;
     background-color: #13293d;
-
     justify-content: center;
     padding: 2%;
     font-size: 18px;
@@ -66,7 +67,7 @@ nav a {
 #Applications section {
     max-width: 90%;      
     height: auto;         
-    padding: 5px; /* Add padding equal to desired border width */
+    padding: 5px;
     background-color:rgba(37, 69, 93, 0.2); /* Background color for simulated border */
     overflow: hidden;  
     position: relative; 
@@ -85,6 +86,7 @@ nav a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     box-sizing: border-box; /* Ensure that the width includes any padding */
 }
+
 #Applications > section:first-of-type img {
     width: 90%;
 }
@@ -95,10 +97,10 @@ nav a {
     transform-origin: center;
     z-index: 100; 
 }
+
 #Applications h3 {
     text-align: center;
 }
-
 
 h1 {
 
@@ -106,43 +108,21 @@ h1 {
     padding-left: 30px;
     text-align: center;
 }
+
 h1:hover {
 
     transform: scale(1.1);
     padding-left: 30px;
     text-align: center;
 }
+
 section h2 {
 
     position: relative; 
     text-align: center; 
 
 }
-.snippet {
-    background-color: #4D4D4D;
-    margin: 17px;
-    padding: 17px;
-    border-radius: 4px;
-    border: 1px dashed white;
-}
-pre {
-    display: block;
-    background-image: linear-gradient(to bottom, #800080, #ee82ee); /* From dark violet to light violet */
-    padding: 5px;
-    border-radius: 4px;
-    white-space: pre;
-    font-size: large;
-    user-select: all;         /* Standard syntax */
-    transition-duration: 2s;
-   
-}
-pre:focus {
-    background: yellow;
-    border-radius: 25px;
-    color: black;
-    user-select: all;         /* Standard syntax */
-  
-}
+
 footer {
     background-color: #13293d;
     text-align: center;
@@ -150,24 +130,95 @@ footer {
     font-size: 1.2em;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    flex-direction: row;
+address {
+    list-style-type: none;
 }
-/* Styles for tablets and larger devices */
-@media screen and (min-width: 768px) {
+
+/* ... tablet ... */
+@media screen 
+and (min-width : 768px) 
+and (max-width : 1024px)  {
+    figure img {
+        width: 300px;  
+        height: 300px; 
+    }
+
+    header {
+        padding: 2%; 
+    }
+
+    .about-me, #Applications {
+        font-size: 16px;
+    }
+
+    #Applications img {
+        width: 70%;
+        height: auto;
+    }
+
+    #Applications > section:first-of-type img {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 40px;
+        padding-left: 20px;
+    }
+}
+
+  /* for 4K TVs  */
+@media screen and (min-width: 3840px) {
+    body {
+        font-size: 24px;  /* Increase base font size */
+    }
     
-  
+    figure img {
+        width: 800px;  
+        height: 800px; 
+    }
+
+    header {
+        padding: 4%; 
+    }
+
+    .about-me, #Applications {
+        font-size: 28px;
+    }
+
+    #Applications img {
+        width: 70%;
+        height: auto;
+    }
+
+    #Applications > section:first-of-type img {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 80px;
+        padding-left: 50px;
+    }
+
+    nav a {
+        font-weight: bold;
+        text-decoration: none;
+        padding: 1em 2em; /* Increase padding for navigation links */
+        font-size: 22px;
+    }
+
+    section h2 {
+        font-size: 48px;
+    }
+
+    footer {
+        font-size: 2em; /* Increase the font size for footer */
+    }
+
+    .container {
+        padding: 4%;  /* Add some padding to container for better spacing */
+    }
 }
-/* Styles for desktops and larger devices */
-@media screen and (min-width: 992px) {
-   
-    
-}
+
 /* Styles for mobile devices */
 @media screen and (max-width: 768px) {
     figure img {
@@ -202,12 +253,5 @@ footer {
     }
     section h2 {
         font-size: 24px; /* Adjust the font size */
-    }
-    .snippet {
-        margin: 10px;
-        padding: 10px;
-    }
-    pre {
-        font-size: medium; /* Adjust the font size */
     }
 }
