@@ -3,8 +3,6 @@
 ## Description
 Welcome to my personal portfolio repository. This portfolio showcases my skills, projects, and experiences as a software developer/web designer. Please feel free to explore the source code and visit the live version of the portfolio here (https://diegoar98.github.io/Professional-Portfolio-Diego/).
 
-![Portfolio webpage of Diego Araujo](./assets/images/diegoar98.github.io_Professional-Portfolio-Diego_(iPad%20Air).png)
-
 ## Features
 
 Responsive Design: Designed to look great on both desktop and mobile devices.
@@ -31,3 +29,5 @@ https://www.semrush.com/blog/semantic-html5-guide/
 https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+<img src="./assets/images/diegoar98.github.io_Professional-Portfolio-Diego_(iPad Air).png" width="800" height="1000" alt="Portfolio webpage of Diego Araujo">
