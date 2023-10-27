@@ -1,7 +1,9 @@
 # Diego Araujo's Portfolio
 
 ## Description
-Welcome to my personal portfolio repository. This portfolio showcases my skills, projects, and experiences as a software developer/web designer. Please feel free to explore the source code.
+Welcome to my personal portfolio repository. This portfolio showcases my skills, projects, and experiences as a software developer/web designer. Please feel free to explore the source code and visit the live version of the portfolio here (https://diegoar98.github.io/Professional-Portfolio-Diego/).
+
+![Portfolio webpage of Diego Araujo](./assets/images/diegoar98.github.io_Professional-Portfolio-Diego_(iPad%20Air).png)
 
 ## Features
 
