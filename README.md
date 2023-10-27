@@ -1,4 +1,4 @@
-Diego Araujo's Portfolio
+# Diego Araujo's Portfolio
 
 ## Description
 Welcome to my personal portfolio repository. This portfolio showcases my skills, projects, and experiences as a software developer/web designer. Please feel free to explore the source code.
